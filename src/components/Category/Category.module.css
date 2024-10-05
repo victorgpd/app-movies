@@ -1,0 +1,23 @@
+.category {
+    width: 100%;
+    text-align: center;
+    
+    gap: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.cards {
+    width: 100%;
+
+    gap: 15px 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 1278px) {
+    .cards {
+        justify-content: center;
+    }
+}

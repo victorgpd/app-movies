@@ -1,0 +1,12 @@
+.main {
+    width: 100%;
+    min-height: calc(100vh - 113px);
+    padding: 16px;
+    
+    color: white;
+    background: #191919;
+
+    gap: 20px;
+    display: flex;
+    flex-flow: column;
+}

@@ -1,0 +1,8 @@
+.watch {
+    width: 100%;
+    
+    gap: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

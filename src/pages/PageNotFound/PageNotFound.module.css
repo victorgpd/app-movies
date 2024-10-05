@@ -1,0 +1,26 @@
+.pagenotfound {
+    flex: 1 1 auto;
+
+    width: 100%;
+    height: 100%;
+
+    gap: 30px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagenotfound > div > h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.pagenotfound > div > h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+}

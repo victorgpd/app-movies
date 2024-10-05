@@ -1,0 +1,36 @@
+.result {
+    flex: 1 1 auto;
+
+    padding: 5px;
+    text-align: center;
+
+    gap: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.result_videos {
+    flex: 1 1 auto;
+
+    gap: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.result_videos > div {
+    flex: 1 0 300px;
+
+    max-width: 361px;
+    max-height: 207px;
+}
+
+@media screen and (max-width: 1060px) {
+    .result_videos {
+        justify-content: center;
+    }
+    
+    .result_videos > div {
+        flex: 0 1 300px;
+    }
+}
